@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:gravity="center_vertical"
+  android:padding="5dip">
+	<ImageView android:id="@+id/ImageView_Login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/oidbt"></ImageView>
+	<EditText
+		android:id="@+id/EditText_Username"
+		android:layout_width="fill_parent"
+		android:hint="@string/activity_login_hint_username"
+		android:textSize="16sp"
+		android:layout_height="wrap_content">
+	</EditText>
+	<EditText
+		android:id="@+id/EditText_Password"
+		android:layout_width="fill_parent"
+		android:hint="@string/activity_login_hint_pwd"
+		android:textSize="16sp"
+		android:layout_height="wrap_content"
+		android:inputType="textPassword">
+	</EditText>
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="horizontal">
+		<CheckBox
+			android:text="@string/activity_oidprovider_autologin"
+			android:id="@+id/CheckBox_AutoLogin"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</CheckBox>
+		<Button
+			android:id="@+id/Button_Logon"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="200dip"
+			android:text="@string/button_login_text"
+			android:onClick="onLogonClick">
+		</Button>
+	</LinearLayout>
+	<TextView android:id="@+id/Register_Link"
+				android:autoLink="web"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/activity_login_register">
+	</TextView>
+
+</LinearLayout>

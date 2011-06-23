@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="10dp">
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+				<TextView android:id="@+id/TextView_OidRequest_Notification"
+				            android:singleLine="true"
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:text="@string/activity_oidrequest_notification_none_required_field"
+							android:textColor="#FFF" />
+				<TextView android:id="@+id/TextView_OidRequest_Required_Fields"
+							android:inputType="textMultiLine"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:textColor="#FFF" />
+			</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="3dp">
+		<Button android:id="@+id/Button_OidRequest_Notification_Accept" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/activity_oidrequest_notification_button_accept" />
+		<Button android:id="@+id/Button_OidRequest_Notification_Refuse" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/activity_oidrequest_notification_button_refuse" />
+	</LinearLayout>
+</LinearLayout>

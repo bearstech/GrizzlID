@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GrizzlID</string>
+	<string name="button_login_text">Connexion</string>
+	<string name="activity_oidprovider_login_failed">Erreur de connexion:</string>
+	<string name="activity_oidprovider_autologin">Sauvé ?</string>
+	<string name="activity_oidrequest_notification_title">Requête OpenID</string>
+	<string name="activity_grizzlid_logging">Connexion...</string>
+	<string name="activity_oidrequest_notification_button_accept">Accepter</string>
+	<string name="activity_oidrequest_notification_button_refuse">Refuser</string>
+	<string name="activity_oidrequest_response">Envoi de la réponse...</string>
+	<string name="activity_oidprovider_list_loading">Chargement...</string>
+	<string name="activity_oidrequest_notification_required_fields">Ce site requiert ces informations:</string>
+	<string name="activity_oidrequest_notification_none_required_field">Ce site ne requiert aucune information.</string>
+	<string name="activity_oidprovider_list_empty">Aucune requête OpenID en attente</string>
+	<string name="oidrequest_request_error">Erreur: </string>
+	<string name="oidrequest_io_error">Erreur réseau: </string>
+	<string name="oidrequest_json_error">Erreur JSON: </string>
+	<string name="c2dm_successfully_registered">Enregistré avec succès!</string>
+	<string name="oidrequest_row_label_site">Site: </string>
+	<string name="oidrequest_row_label_status_pending">Statut: en attente</string>
+	<string name="oidrequest_row_label_status_accepted">Statut: acceptée</string>
+	<string name="oidrequest_row_label_status_refused">Status: refusée</string>
+	<string name="oidrequest_list_json_error">GrizzlID erreur JSON: </string>
+	<string name="oidrequest_list_io_error">GrizzlID erreur réseau: </string>
+	<string name="oidrequest_list_error">GrizzlID erreur: </string>
+	<string name="option_menu_refresh">Rafraîchir</string>
+	<string name="option_menu_logout">Déconnexion</string>
+	<string name="yes">Oui</string>
+	<string name="no">Non</string>
+	<string name="oauth_dialog_confirmation">Une requête OAuth vous attend sur %s. Souhaitez-vous la consulter ?</string>
+	<string name="activity_login_register">Pour créer un nouveau compte, veuillez voir https://openid.bearstech.com</string>
+	<string name="activity_login_hint_username">Entrez votre email</string>
+	<string name="activity_login_hint_pwd">Entrez votre mot de passe</string>
+</resources>
